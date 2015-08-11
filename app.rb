@@ -1,5 +1,5 @@
 class FirstSinatraApp < Sinatra::Base
   get "/" do
-    "WDI is awesome."
+    erb "WDI is awesome."
   end
 end
